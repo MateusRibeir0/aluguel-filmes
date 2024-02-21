@@ -3,6 +3,7 @@
 function alterarStatus(id) {
     let gameClicado = document.getElementById(`game-${id}`);
     // Criar variaveis que facilitem alterar a class no futuro
+    // Pegar primeiro elemento da class com o querySelector
     let imagem = gameClicado.querySelector('.dashboard__item__img');
     let botao = gameClicado.querySelector('.dashboard__item__button');
     let nomeGame = gameClicado.querySelector('.dashboard__item__name');
